@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/color"
     tools:context=".MainActivity">
     <!--matar-->
     <Button
@@ -16,7 +17,7 @@
         app:layout_constraintBottom_toTopOf="@+id/txtTienesCuenta"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
+    <!--
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="411dp"
@@ -29,7 +30,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         tools:srcCompat="@drawable/minimalist_green_android_logo_xmvp2a4zfaq70rlt_xmvp2a4zfaq70rlt" />
-
+    -->
     <TextView
         android:id="@+id/txtTienesCuenta"
         android:layout_width="wrap_content"
