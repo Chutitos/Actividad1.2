@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Chutitos/AndroidStudioProjects/Actividad12/app/src/main/res/drawable/color.xml" value="0.236" />
+        <entry key="..\:/Users/Chutitos/AndroidStudioProjects/Actividad12/app/src/main/res/layout/activity_feed.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Chutitos/AndroidStudioProjects/Actividad12/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/Chutitos/AndroidStudioProjects/Actividad12/app/src/main/res/layout/activity_registro.xml" value="0.264" />
       </map>
