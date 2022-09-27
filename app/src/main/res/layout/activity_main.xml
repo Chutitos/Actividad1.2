@@ -10,11 +10,12 @@
         android:id="@+id/nuevaCuenta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
         android:backgroundTint="#616161"
         android:text="Crear Nueva Cuenta"
+        app:layout_constraintBottom_toTopOf="@+id/txtTienesCuenta"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="534dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -36,18 +37,23 @@
         android:text="¿Tienes Cuenta? - "
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="608dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="96dp"
         android:shadowColor="#000000"
         android:text="INGRESA AQUI"
         android:textColor="#3BAAFF"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="210dp"
-        tools:layout_editor_absoluteY="608dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtTienesCuenta" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
