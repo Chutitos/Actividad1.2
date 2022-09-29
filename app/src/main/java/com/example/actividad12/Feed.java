@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class Feed extends AppCompatActivity {
-    //matar
+    //matar3
     TextView nombreRecibido;
 
     @Override
